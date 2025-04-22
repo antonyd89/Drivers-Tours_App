@@ -40,6 +40,7 @@ const store = useToursStore()
 
 onMounted(() => {
   store.fetchTours()
-})</script>
+})
+</script>
 
 <style src="./index.scss" lang="scss" />

@@ -16,7 +16,7 @@
   }
 
   &__term {
-    margin-bottom: $spacing-1/2;
+    margin-bottom: calc($spacing-1 / 2);
     font-weight: $font-weight-bold;
 
     @include media-breakpoint-up(md) {
