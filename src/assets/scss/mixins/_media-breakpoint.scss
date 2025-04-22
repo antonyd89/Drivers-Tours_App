@@ -1,0 +1,12 @@
+// Media Breakpoint
+@mixin media-breakpoint-up($bp) {
+  @media (min-width: map-get($bp-setup, $bp)) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-down($bp) {
+  @media (max-width: map-get($bp-setup, $bp)) {
+    @content;
+  }
+}

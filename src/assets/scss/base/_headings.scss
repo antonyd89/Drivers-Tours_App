@@ -1,0 +1,72 @@
+h1,
+.h1 {
+  font-weight: $font-weight-bold;
+  font-size: $h1-font-size;
+  line-height: $h1-line-height;
+
+  @include media-breakpoint-up(md) {
+    font-size: $h1-font-size-dt;
+    line-height: $h1-line-height-dt;
+  }
+}
+
+h2,
+.h2 {
+  font-weight: $font-weight-bold;
+  font-size: $h2-font-size;
+  line-height: $h2-line-height;
+
+  @include media-breakpoint-up(md) {
+    font-size: $h2-font-size-dt;
+    line-height: $h2-line-height-dt;
+  }
+}
+
+h3,
+.h3 {
+  font-weight: $font-weight-bold;
+  font-size: $h3-font-size;
+  line-height: $h3-line-height;
+
+  @include media-breakpoint-up(md) {
+    font-size: $h3-font-size-dt;
+    line-height: $h3-line-height-dt;
+  }
+}
+
+h4,
+.h4 {
+  font-weight: $font-weight-bold;
+  font-size: $h4-font-size;
+  line-height: $h4-line-height;
+
+  @include media-breakpoint-up(md) {
+    font-size: $h4-font-size-dt;
+    line-height: $h4-line-height-dt;
+  }
+}
+
+h5,
+.h5 {
+  font-weight: $font-weight-bold;
+  font-size: $h5-font-size;
+  line-height: $h5-line-height;
+
+  @include media-breakpoint-up(md) {
+    font-size: $h5-font-size-dt;
+    line-height: $h5-line-height-dt;
+  }
+}
+
+h6,
+.h6 {
+  font-weight: $font-weight-bold;
+  font-size: $h6-font-size;
+  line-height: $h6-line-height;
+
+  @include media-breakpoint-up(md) {
+    font-size: $h6-font-size-dt;
+    line-height: $h6-line-height-dt;
+  }
+}
+

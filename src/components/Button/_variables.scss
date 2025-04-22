@@ -1,0 +1,39 @@
+$btn-height: rem(48px);
+
+$btn-color: $white;
+$btn-border-color: $neutral-40;
+$btn-bg-color: $neutral-50;
+
+$btn-bg-color-hover: $neutral-70;
+$btn-border-color-hover: $btn-bg-color-hover;
+
+$btn-border-color-focus: $neutral-50;
+
+$btn-bg-disabled: $neutral-20;
+
+// Success
+$btn-success-bg-color: $success-40;
+$btn-success-border-color: $success-40;
+
+$btn-success-bg-color-hover: $success-70;
+$btn-success-border-color-hover: $btn-success-bg-color-hover;
+
+$btn-success-border-color-focus: $success-50;
+
+// Warning
+$btn-warning-bg-color: $warning-40;
+$btn-warning-border-color: $warning-40;
+$btn-warning-bg-color-hover: $warning-70;
+
+$btn-warning-border-color-hover: $btn-warning-bg-color-hover;
+
+$btn-warning-border-color-focus: $warning-50;
+
+// Danger
+$btn-danger-bg-color: $danger-40;
+$btn-danger-border-color: $danger-40;
+$btn-danger-bg-color-hover: $danger-70;
+
+$btn-danger-border-color-hover: $btn-danger-bg-color-hover;
+
+$btn-danger-border-color-focus: $danger-50;

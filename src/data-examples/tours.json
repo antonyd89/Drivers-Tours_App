@@ -1,0 +1,48 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "locationTo": "Paris",
+      "customerName": "Star Logistics",
+      "locationFrom": "Berlin",
+      "shipmentDate": "16.04.2025",
+      "assignedDriver": {
+        "id": 1,
+        "name": "John",
+        "location": "Berlin"
+      }
+    },
+    {
+      "id": 2,
+      "locationTo": "Amsterdam",
+      "customerName": "Cargo Logistics",
+      "locationFrom": "Cologne",
+      "shipmentDate": "31.08.2025",
+      "assignedDriver": null
+    },
+    {
+      "id": 3,
+      "locationTo": "Warsaw",
+      "customerName": "Trans-Logistics",
+      "locationFrom": "Berlin",
+      "shipmentDate": "01.10.2025",
+      "assignedDriver": null
+    },
+    {
+      "id": 4,
+      "locationTo": "Warsaw",
+      "customerName": "Marc & Poll company",
+      "locationFrom": "Hamburg",
+      "shipmentDate": "21.05.2025",
+      "assignedDriver": null
+    },
+    {
+      "id": 5,
+      "locationTo": "Rome",
+      "customerName": "Trinity Group",
+      "locationFrom": "Munich",
+      "shipmentDate": "21.05.2025",
+      "assignedDriver": null
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+$white: #fff !default;
+$dark-blue: #182841 !default;
+
+// Neutral Colors
+$neutral-10: #f4f6f8 !default;
+$neutral-20: #ebf0f2 !default;
+$neutral-30: #e4e8eb !default;
+$neutral-40: #c1c5c7 !default;
+$neutral-50: #636566 !default;
+$neutral-60: #4f5152 !default;
+$neutral-70: #3e3f40 !default;
+$neutral-80: #212529 !default;
+$neutral-90: #0f0f0f !default;
+
+// Status Colors : Success
+$success-10: #c4f3f3 !default;
+$success-40: #15a2a2 !default;
+$success-50: #008080 !default;
+$success-60: #007070 !default;
+$success-70: #006060 !default;
+$success-80: #055 !default;
+
+// Status Colors : Warning
+$warning-10: #fff6e0 !default;
+$warning-40: #e09d00 !default;
+$warning-50: #996b00 !default;
+$warning-60: #8f6400 !default;
+$warning-70: #7a5600 !default;
+$warning-80: #6b4b00 !default;
+
+// Status Colors : Danger
+$danger-10: #ffe6e6 !default;
+$danger-40: #f75e50 !default;
+$danger-50: #e02e1d !default;
+$danger-60: #d42b1c !default;
+$danger-70: #c6281a !default;
+$danger-80: #b92518 !default;
+
+// Status Colors : Info
+$info-10: #e1ecff !default;
+$info-40: #4c89f4 !default;
+$info-50: #0054e6 !default;
+
+// Text Color
+$text-color: $neutral-80 !default;
+
+// Link Color
+$link-color: $success-40 !default;
+$link-color-focus: $success-80 !default;
+$link-color-active: $success-80 !default;
+
+// Modal Window
+$modal-window-overlay-bg-color: rgba($neutral-90, 0.65) !default;
+$modal-window-container-bg-color:  $white !default;
+
+// Header & Navigation Colors:
+$header-color: $white !default;
+$header-bg-color: $dark-blue !default;
+$nav-link-color: $white !default;
+$nav-link-bg-color: $dark-blue !default;
+$nav-link--active-bg-color: #20334e !default;

@@ -1,0 +1,101 @@
+@import "./variables";
+
+.btn {
+  position: relative;
+  height: $btn-height;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: rem(12px);
+  color: $btn-color;
+  border: rem(1px) solid $btn-border-color;
+  border-radius: $border-radius-medium;
+  background-color: $btn-bg-color;
+  cursor: pointer;
+  font-size: $font-size-base;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-large;
+
+  @include media-breakpoint-up(md) {
+    width: auto;
+    font-size: $font-size-md;
+  }
+
+  @include media-breakpoint-up(lg) {
+    transition: background-color $animation-base, border-color $animation-base;
+  }
+
+  &[disabled] {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.4;
+  }
+
+  &:hover {
+    background-color: $btn-bg-color-hover;
+    border-color: $btn-border-color-hover;
+  }
+
+  &:focus {
+    border-color: $btn-border-color-focus;
+  }
+
+  &:active {
+    box-shadow: $brand-shadow-xs;
+  }
+
+  &--icon {
+    width: rem(30px);
+    height: rem(30px);
+    padding: rem(4px);
+    line-height: 1;
+
+    svg {
+      width: rem(16px);
+    }
+  }
+
+  &--success {
+    background-color: $btn-success-bg-color;
+    border-color: $btn-success-border-color;
+
+    &:hover {
+      background-color: $btn-success-bg-color-hover;
+      border-color: $btn-success-border-color-hover;
+    }
+
+    &:focus {
+      border-color: $btn-success-border-color-focus;
+    }
+  }
+
+  &--warning {
+    background-color: $btn-warning-bg-color;
+    border-color: $btn-warning-border-color;
+
+    &:hover {
+      background-color: $btn-warning-bg-color-hover;
+      border-color: $btn-warning-border-color-hover;
+    }
+
+    &:focus {
+      border-color: $btn-warning-border-color-focus;
+    }
+  }
+
+  &--danger {
+    background-color: $btn-danger-bg-color;
+    border-color: $btn-danger-border-color;
+
+    &:hover {
+      background-color: $btn-danger-bg-color-hover;
+      border-color: $btn-danger-border-color-hover;
+    }
+
+    &:focus {
+      border-color: $btn-danger-border-color-focus;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.navigation {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  @include media-breakpoint-up(lg) {
+    flex-direction: column;
+  }
+
+  &__link {
+    min-width: rem(80px);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $font-size-md;
+    padding: rem(12px);
+    color: $nav-link-color;
+    background-color: $nav-link-bg-color;
+
+    @include media-breakpoint-up(lg) {
+      transition: background-color $animation-base;
+      justify-content: left;
+    }
+
+    &:hover {
+      text-decoration: none;
+      color: $nav-link-color;
+
+      @include media-breakpoint-up(lg) {
+        background-color: $nav-link--active-bg-color;
+      }
+    }
+
+    &:focus {
+      color: $nav-link-color;
+    }
+
+    &:active,
+    &.router-link-active {
+      font-weight: $font-weight-extra-bold;
+      background-color: $nav-link--active-bg-color;
+    }
+  }
+}

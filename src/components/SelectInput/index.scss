@@ -1,0 +1,30 @@
+.select-input {
+  --vs-min-height: #{$input-height};
+  --vs-padding: #{$input-paddings};
+  --vs-border: rem(2px) solid #{$input-border-color};
+  --vs-border-radius: #{$border-radius-small};
+  --vs-font-size: #{$font-size-base};
+  --vs-font-weight: #{$font-weight-medium};
+  --vs-text-color: #{$input-color};
+  --vs-background-color: #{$input-bg-color};
+  --vs-outline-width: 0;
+  --vs-outline-color: #{$input-border-color-hover};
+
+  .control {
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+    border-top-width: 0 !important;
+  }
+
+  &__label {
+    display: block;
+    margin-bottom: $spacing-1;
+    font-size: $font-size-base;
+    font-weight: $font-weight-medium;
+    line-height: $line-height-large;
+
+    @include media-breakpoint-up(md) {
+      font-size: $font-size-md;
+    }
+  }
+}

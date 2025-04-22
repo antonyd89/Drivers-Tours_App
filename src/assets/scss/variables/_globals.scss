@@ -1,0 +1,17 @@
+// Shadows
+$brand-shadow-base: 0 rem(1px) rem(2px) 0 rgba($neutral-80, 0.48) !default;
+$brand-shadow-xs: 0 rem(1px) rem(2px) rgba($neutral-80, 0.2) !default;
+
+// Easings
+$animation-enter: cubic-bezier(0.64, 0.57, 0.15, 1.56) !default;
+$animation-enter-linear: cubic-bezier(0.64, 0.57, 0, 1) !default;
+$animation-leaving: cubic-bezier(0.42, 0, 0, 1.41) !default;
+
+// Durations & Delays
+$animation-fast: 0.1s ease-out !default;
+$animation-base: 0.3s ease-out !default;
+$animation-slow: 0.5s ease-out !default;
+
+//Global elements styles
+$header-desktop-width: rem(180px);
+$app-desktop-reserved-space: $header-desktop-width;

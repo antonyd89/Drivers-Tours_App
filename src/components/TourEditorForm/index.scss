@@ -1,0 +1,11 @@
+.tour-editor-form {
+  &__bottom {
+    display: flex;
+    justify-content: right;
+    padding-top: $spacing-2;
+
+    .btn + .btn {
+      margin-left: $spacing-2;
+    }
+  }
+}

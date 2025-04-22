@@ -1,0 +1,43 @@
+.text-input {
+  margin-bottom: $spacing-2;
+
+  &__label {
+    display: block;
+    margin-bottom: $spacing-1;
+    font-size: $font-size-base;
+    font-weight: $font-weight-medium;
+    line-height: $line-height-large;
+
+    @include media-breakpoint-up(md) {
+      font-size: $font-size-md;
+    }
+  }
+
+  &__input {
+    display: block;
+    width: 100%;
+    margin-bottom: $spacing-1;
+    height: $input-height;
+    padding: $input-paddings;
+    background-color: $input-bg-color;
+    border-radius: $border-radius-small;
+    will-change: transition;
+    transition: border $animation-base;
+    border-width: 0 0 rem(2);
+    border-style: solid;
+    border-color: $input-border-color;
+    color: $input-color;
+    font-weight: $font-weight-medium;
+    font-size: $font-size-base;
+    -webkit-appearance: none;
+
+    &:hover {
+      background-color: $input-bg-color-hover;
+      border-color: $input-border-color-hover;
+    }
+  }
+
+  &__warning {
+    color: $danger-50;
+  }
+}

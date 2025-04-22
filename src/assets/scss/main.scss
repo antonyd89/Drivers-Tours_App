@@ -1,0 +1,112 @@
+@import 'base/headings';
+@import 'base/form-elements';
+
+html {
+  font-size: $font-size-md;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: $white;
+  color: $text-color;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-base;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    outline: none;
+  }
+}
+
+p,
+ul,
+ol {
+  margin: 0 0 $spacing-2 0;
+}
+
+label {
+  user-select: none;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+a {
+  color: $link-color;
+  font-weight: $font-weight-medium;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:focus {
+    color: $link-color-focus;
+  }
+
+  &:active {
+    color: $link-color-active;
+  }
+}
+
+#app {
+  min-width: rem(320px);
+  overflow: hidden;
+}
+
+.container {
+  $root: &;
+
+  max-width: rem(1024px);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 $spacing-2;
+
+  @include media-breakpoint-up(xl) {
+    max-width: rem(1200px);
+  }
+}
+
+.app-container {
+  position: relative;
+
+  @include media-breakpoint-up(lg) {
+    padding-left: $app-desktop-reserved-space;
+  }
+}
+
+.main {
+  overflow: hidden;
+
+  @include media-breakpoint-up(lg) {
+    min-height: 100vh;
+  }
+}
+
+.page-holder {
+  padding: $spacing-2 0;
+
+  @include media-breakpoint-up(lg) {
+    padding: $spacing-3 0;
+  }
+}

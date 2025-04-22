@@ -1,0 +1,64 @@
+// Typography
+$font-family-base: Avenir, Helvetica, Arial, sans-serif !default;
+
+// Font size
+$font-size-xs: rem(10px) !default;
+$font-size-sm: rem(12px) !default;
+$font-size-base: rem(16px) !default;
+$font-size-md: rem(18px) !default;
+$font-size-lg: rem(20px) !default;
+$font-size-xl: rem(22px) !default;
+$font-size-xxl: rem(24px) !default;
+$font-size-hg: rem(28px) !default;
+
+// Line height
+$line-height-base: 1.25 !default; // 17.5px
+// line heights
+$line-height-xxxlarge: rem(32px);
+$line-height-xxlarge: rem(28px);
+$line-height-xlarge: rem(26px);
+$line-height-large: rem(24px);
+$line-height-medium: rem(22px);
+$line-height-xmedium: rem(20px);
+$line-height-small: rem(18px);
+$line-height-xsmall: rem(16px);
+
+// font weights
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 900;
+
+// Headings:
+// mobile sizes
+$h1-font-size: rem(28px);
+$h2-font-size: rem(24px);
+$h3-font-size: rem(22px);
+$h4-font-size: rem(20px);
+$h5-font-size: rem(18px);
+$h6-font-size: rem(14px);
+
+// mobile line height
+$h1-line-height: rem(36px);
+$h2-line-height: rem(32px);
+$h3-line-height: rem(28px);
+$h4-line-height: rem(24px);
+$h5-line-height: rem(22px);
+$h6-line-height: rem(20px);
+
+// desktop + tablet sizes
+$h1-font-size-dt: rem(42px);
+$h2-font-size-dt: rem(36px);
+$h3-font-size-dt: rem(24px);
+$h4-font-size-dt: rem(20px);
+$h5-font-size-dt: rem(18px);
+$h6-font-size-dt: rem(16px);
+
+// desktop + tablet line height
+$h1-line-height-dt: rem(48px);
+$h2-line-height-dt: rem(44px);
+$h3-line-height-dt: rem(32px);
+$h4-line-height-dt: rem(28px);
+$h5-line-height-dt: rem(24px);
+$h6-line-height-dt: rem(24px);
+
